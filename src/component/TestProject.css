@@ -1,0 +1,9 @@
+.container {
+    background-color: blue;
+    height: 60%;
+    width: 400px; margin: 0 auto;overflow-y: ;
+    padding: 5px;
+    border: 'black';
+    border-width: 'medium';
+    margin-top: '50px';
+}
