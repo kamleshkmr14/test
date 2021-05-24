@@ -1,0 +1,63 @@
+[{
+        "id": 1,
+        "Name": "Patna",
+        "area":[{
+            "pin":"80008",
+            "street":"City",
+            "landmark":"PNC"
+
+        },{
+            "pin":"800020",
+            "street":"Kankarbagh",
+            "landmark":"RJPB"
+
+        },{
+            "pin":"800001",
+            "street":"Junction",
+            "landmark":"PNBE"
+
+        },{
+            "pin":"800060",
+            "street":"Danapur",
+            "landmark":"DNR"
+
+        }]
+    },
+    {
+        "id1": 2,
+        "Name": "Delhi",
+        "area":[{
+            "pin":"10008",
+            "street":"NEWD",
+            "landmark":"DLI"
+
+        },{
+            "pin":"",
+            "street":"",
+            "landmark":""
+
+        },{
+            "pin":"",
+            "street":"",
+            "landmark":""
+
+        },{
+            "pin":"",
+            "street":"",
+            "landmark":""
+
+        }]
+    },
+    {
+        "id": 3,
+        "Name": "Kolkata"
+    },
+    {
+        "id": 4,
+        "Name": "Ahmadabad"
+    },
+    {
+        "id": 5,
+        "Name": "Chennai"
+    }
+]

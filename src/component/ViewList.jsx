@@ -1,17 +1,31 @@
-import React,{useEffect} from "react"
-export default function ViewList() {
-    useEffect(() => {
-        document.title = "View List"
-     }, []);
+ import React from "react";
+ import data from "./data.json"
+ import ShowList from "./ShowList"
+ import { Link, Route } from 'react-router-dom';
+
+function ViewList(){
     return(
-        <div className="container">
-        <span><label>City</label></span>
-        <select>
-            <option>option1</option>
-            <option>option2</option>
-        </select>
-        <br/><br/><button>Clear</button>&nbsp;
-        <button>Run</button>
+        <div class="main-container">
+        <div class="top_header">
+            <span>View List</span>
         </div>
+
+        <div class="drop_item">
+            <span>City</span>
+            <select>
+                {data.map((detail,index)=>{
+                return <option value={detail.id}>{detail.Name}</option>
+            })}
+            </select>
+        </div>
+
+        <div class="action_btn">
+            <button>Clear</button>
+            <Link to="/ShowList"> <button >RUN</button></Link>
+            <Route path="/ShowList"> <ShowList /></Route>
+        </div>
+
+           </div>
     );
 }
+export default ViewList;
