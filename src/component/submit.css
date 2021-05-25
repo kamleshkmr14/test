@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #255e9e;
+    Overflow-y:scroll;
+}
+
+.main-container {
+    width: 400px;
+    background-color: #fefefe;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px #999;
+}
+
+.top_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 6px 10px 10px;
+    border-bottom: 1px solid #444;
+}
+.top_header span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #444;
+}
+.name_box {
+    position: relative;
+    margin: 5px;
+    box-shadow: 0 2px 9px #999;
+    border-radius: 6px;
+}
+
+.name_box span:first-child {
+    display: block;
+    width: 100%;
+    padding: 5px 0px 5px 5px;
+    border-bottom: 1px solid #333;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #999;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.name_box div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    position: relative;
+}
+
+.name_box div input {
+    width: 80%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid #888;
+    height: 30px;
+    outline: none;
+    padding: 0px 25px 0px 5px;
+}
+
+
+.name_box a {
+    width: 100%;
+    text-align: center;
+    padding: 4px 0px;
+    display: block;
+}
+
+.details_box {
+    position: relative;
+    margin: 30px 10px 10px 10px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0px 2px 9px #999;
+    border: 1px solid #333;
+}
+
+.notes_box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.btn_grp {
+    position: absolute;
+    top: -54px;
+    display: flex;
+    margin-left: -46px;
+}
+
+.btn_grp button {
+    background-color: #999;
+    color: #fff;
+    outline: nonoe;
+    border: 1px solid #333;
+    padding: none;
+    
+}
+.btn_grp button:first-child {
+    border-radius: 0px;
+    border-top-left-radius: 6px;
+}
+
+.btn_grp button:last-child {
+    border-radius: 0px;
+    border-top-right-radius: 6px;
+    margin-left: 0px;
+}
+
+.radio_grp {
+    padding: 10px;
+    display: block;
+}
+
+.radio_grp div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.radio_grp div span {
+    width: 40%;
+    text-align: center;
+}
+
+.list_box {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.list_box .list_a {
+    width: 40%;
+    text-align: center;
+}
+
+.list_box .list_b {
+    width: 50%;
+    text-align: center;
+}
+
+.list_a span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.list_a_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px dashed #888;
+}
+
+.list_b_btn_grp {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_b_btn_grp button {
+    border-radius: 6px;
+    margin-bottom: 0px;
+    margin: 2px;
+    outline: none;
+    background-color: #255e9e;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list_b_btn_grp button:hover {
+    background-color: chocolate;
+}
+
+.action_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.action_btn button {
+    margin-right: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 12px;
+}
+
+.action_btn button:first-child {
+    background-color: #f60101;
+}
+
+.action_btn button:last-child {
+    background-color: #239e23;
+}

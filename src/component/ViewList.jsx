@@ -4,23 +4,23 @@
  import { Link, Route } from 'react-router-dom';
 
 function ViewList(){
-    let [value, setValue] = useState("Patna");
+    let [value, setValue] = useState();
     return(
-        <div class="main-container">
-        <div class="top_header">
+        <div className="main-container">
+        <div className="top_header">
             <span>View List</span>
         </div>
-        <div class="drop_item">
+        <div className="drop_item">
             <span>City</span>
-            <select>
+            <select onChange={()=>setValue()}>
                 {data.map((detail,index)=>{
-                return <option value={detail.id}>{detail.Name}</option>
+                return <option key={index}>{detail.Name}</option>
                 
             })}
-            </select>
+            </select> <p>{value}</p>
         </div>
 
-        <div class="action_btn">
+        <div className="action_btn">
             <button>Clear</button>
             <Link to="/ShowList"> <button >RUN</button></Link>
             <Route path="/ShowList"> <ShowList /></Route>

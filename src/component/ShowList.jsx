@@ -2,7 +2,7 @@ import React from "react";
 import data from "./data.json"
 function ShowList() {
     return (
-        <div class="table_container">
+        <div className="table_container">
             <table>
                 <thead class="tblhd">
                     <tr>

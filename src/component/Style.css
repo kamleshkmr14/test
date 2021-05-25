@@ -5,6 +5,7 @@
 }
 
 body {
+    Overflow-y:scroll;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     display: flex;
