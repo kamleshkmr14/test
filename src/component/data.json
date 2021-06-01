@@ -32,32 +32,95 @@
             "landmark":"DLI"
 
         },{
-            "pin":"",
-            "street":"",
-            "landmark":""
+            "pin":"100865",
+            "street":"oldD",
+            "landmark":"asdfg"
 
         },{
-            "pin":"",
-            "street":"",
-            "landmark":""
+            "pin":"874125",
+            "street":"random",
+            "landmark":"sdfghj"
 
         },{
-            "pin":"",
-            "street":"",
-            "landmark":""
+            "pin":"897425",
+            "street":"punj",
+            "landmark":"hello"
 
         }]
     },
     {
         "id": 3,
-        "Name": "Kolkata"
+        "Name": "Kolkata",
+        "area":[{
+            "pin":"70008",
+            "street":"City",
+            "landmark":"PNC"
+
+        },{
+            "pin":"700020",
+            "street":"Kankarbagh",
+            "landmark":"RJPB"
+
+        },{
+            "pin":"700001",
+            "street":"Junction",
+            "landmark":"PNBE"
+
+        },{
+            "pin":"700060",
+            "street":"Danapur",
+            "landmark":"DNR"
+
+        }]
     },
     {
         "id": 4,
-        "Name": "Ahmadabad"
+        "Name": "Ahmadabad",
+        "area":[{
+            "pin":"80008",
+            "street":"City",
+            "landmark":"PNC"
+
+        },{
+            "pin":"380020",
+            "street":"Kankarbagh",
+            "landmark":"RJPB"
+
+        },{
+            "pin":"380001",
+            "street":"Junction",
+            "landmark":"PNBE"
+
+        },{
+            "pin":"380060",
+            "street":"Danapur",
+            "landmark":"DNR"
+
+        }]
     },
     {
         "id": 5,
-        "Name": "Chennai"
+        "Name": "Chennai",
+        "area":[{
+            "pin":"60008",
+            "street":"City",
+            "landmark":"PNC"
+
+        },{
+            "pin":"600020",
+            "street":"Kankarbagh",
+            "landmark":"RJPB"
+
+        },{
+            "pin":"600001",
+            "street":"Junction",
+            "landmark":"PNBE"
+
+        },{
+            "pin":"600060",
+            "street":"Danapur",
+            "landmark":"DNR"
+
+        }]
     }
 ]

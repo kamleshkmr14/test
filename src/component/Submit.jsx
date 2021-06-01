@@ -7,7 +7,6 @@ export default function Submit() {
       <div className="top_header">
         <span>Submit</span>
       </div>
-
       <div className="name_box">
         <span>NAME</span>
         <div>
